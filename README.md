@@ -47,11 +47,11 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your_username/fish_shell.git
+   git clone https://github.com/Ashfinn/fish.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd fish_shell
+   cd fish
    ```
 3. Compile the source code:
    ```sh
@@ -59,7 +59,7 @@ Ensure you have the following installed on your system:
    ```
 4. Run the shell:
    ```sh
-   ./fish_shell
+   ./fish
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
