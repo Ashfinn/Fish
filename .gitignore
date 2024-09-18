@@ -1,48 +1,49 @@
-# Ignore build directories
-build/
-cmake-build-*/
+# Prerequisites
+*.d
 
-# Ignore CMake generated files
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles/
-*.cmake
-Makefile
-*.make
-*.mk
-compile_commands.json
-
-# Ignore Visual Studio files
-*.sln
-*.vcxproj*
-*.vcxproj.filters
-*.ncb
-*.suo
-*.user
-*.filters
-
-# Ignore compiled binary files
-*.exe
-*.out
+# Compiled Object files
+*.slo
+*.lo
 *.o
 *.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
 *.a
 *.lib
-*.so
-*.dll
-*.dylib
 
-# Ignore logs and temporary files
-*.log
-*.tmp
-*.swp
+# Executables
+*.exe
+*.out
+*.app
+server
 
-# Ignore IDE-specific files
-.vscode/
-.idea/
-*.iml
-*.hbp
-.DS_Store
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
 
-# Ignore backup files
-*~
+build/
+vcpkg_installed

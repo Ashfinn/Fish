@@ -1,6 +1,9 @@
-cmake_minimum_required(VERSION 3.10)
-project(Hitori)
+cmake_minimum_required(VERSION 3.13)
 
-set(CMAKE_CXX_STANDARD 17)
+project(shell-starter-cpp)
 
-add_executable(Hitori src/main.cpp)
+file(GLOB_RECURSE SOURCE_FILES src/*.cpp src/*.hpp)
+
+set(CMAKE_CXX_STANDARD 23) # Enable the C++23 standard
+
+add_executable(shell ${SOURCE_FILES})
