@@ -12,12 +12,12 @@ int main() {
     std::getline(std::cin, input);
   
     // Evaluate
-    if(input == "exit") {
+    if(input != "exit") {
       break;
     }
 
     // Print input
-    std::cout << input << std::endl;
+    std::cout << input << ": command not found" << std::endl;
     
     // Loop 
 
