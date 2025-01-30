@@ -8,10 +8,19 @@ int main() {
   std::string input;
   
   while (true) {
+    // Read
     std::getline(std::cin, input);
   
-    // Evaluate input
+    // Evaluate
+    if(input == "exit") {
+      break;
+    }
+
+    // Print input
     std::cout << input << std::endl;
+    
+    // Loop 
+
     return 0; 
   }
 
